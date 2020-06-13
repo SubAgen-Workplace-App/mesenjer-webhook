@@ -1,5 +1,2 @@
 # mesenjer-webhook
 Mesenjer
-
-
-EAALSnO3gFWEBANQZAAWA4XJK3lwjPawUPbN07nq4K6NvZBPGIiX4cTHkMdYCihP2dzr2FNZCUHXxYKkeiDCDgVVk0KPH94BjWUHdffdszvupLSUQkmtaDJGhmXqpyt0pynrvLVV0IqG0jUNixZCzbL0oQifGmYU7ue3hWHwFomxMxFG42br5djjzc5Vmy3kZD
