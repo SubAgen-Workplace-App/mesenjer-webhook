@@ -4,4 +4,4 @@ Mesenjer
 
 ----
 
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+[Contribution guidelines for this project](https://github.com/SubAgen-Workplace-App/mesenjer-webhook/blob/master/Index.js)
