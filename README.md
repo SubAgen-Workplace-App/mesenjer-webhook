@@ -44,7 +44,7 @@ Agar dapat mengikuti panduan penyiapan webhook Anda, Anda hanya perlu memiliki k
 
 Untuk menjalankan webhook yang dapat menerima peristiwa webhook dari Platform Messenger, kode Anda harus di-hosting di server HTTPS publik yang memenuhi persyaratan berikut:
 
-Dukungan HTTPS, Sertifikat yang ditandatangani sendiri tidak didukung
+*Dukungan HTTPS*, Sertifikat yang ditandatangani sendiri tidak didukung
 Sertifikat SSL yang valid
 Port terbuka yang menerima permintaan GET dan POST
 Langkah-langkah Penyiapan
