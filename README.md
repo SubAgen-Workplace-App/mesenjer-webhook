@@ -115,13 +115,13 @@ Untuk mengikuti panduan ini, Anda perlu menginstal Node.js, tetapi Anda dapat me
 
 Sebelum Anda memulai, pastikan server Anda memenuhi semua persyaratan yang tercantum di atas.
 
-1Buat proyek Node.js baru
+1. **Buat proyek Node.js baru**
 Jalankan yang berikut ini di baris perintah untuk membuat file dan dependensi yang diperlukan:
 mkdir messenger-webhook // Creates a project directory cd messenger-webhook // Navigates to the new directory touch index.js // Creates empty index.js file. npm init // Creates package.json. Accept default for all questions. npm install express body-parser --save // Installs the express.js http server framework module, // and then adds them to the dependencies section of package.json file.
 Jika semua berjalan lancar, maka direktori messenger-webhook Anda akan terlihat seperti ini:
 index.js node_modules package.json
 
-2Buat server HTTP
+2. **Buat server HTTP**
 Tambahkan kode berikut ke index.js:
 'use strict';
 // Imports dependencies and set up http server
@@ -133,8 +133,8 @@ const
 app.listen(process.env.PORT || 1337, () => console.log('webhook is listening'));
 Kode ini membuat server HTTP yang menampung permintaan di port default, maupun di port 1337 apabila tidak ada port default. Di panduan ini, kami menggunakan Express, sebuah a framework HTTP yang populer dan ringan, tetapi Anda dapat menggunakan framework apa pun yang Anda sukai untuk membuat webhook Anda.
 
-3Tambahkan endpoint webhook Anda
-Tambahkan kode berikut ke index.js:
+3.**Tambahkan endpoint webhook Anda
+Tambahkan kode berikut ke index.js:**
 // Creates the endpoint for our webhook 
 app.post('/webhook', (req, res) => {  
   let body = req.body;
