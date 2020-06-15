@@ -39,8 +39,8 @@ Di dalam panduan ini, Anda akan mempelajari cara menyiapkan webhook sederhana ya
 
 Untuk informasi selengkapnya tentang persyaratan dan peristiwa webhook, lihat Webhook.
 
-Persyaratan
-Agar dapat mengikuti panduan penyiapan webhook Anda, Anda hanya perlu memiliki komputer yang menginstal Node.js.
+**Persyaratan**
+-Agar dapat mengikuti panduan penyiapan webhook Anda, Anda hanya perlu memiliki komputer yang menginstal Node.js.
 
 Untuk menjalankan webhook yang dapat menerima peristiwa webhook dari Platform Messenger, kode Anda harus di-hosting di server HTTPS publik yang memenuhi persyaratan berikut:
 
@@ -53,7 +53,7 @@ Untuk mengikuti panduan ini, Anda perlu menginstal Node.js, tetapi Anda dapat me
 
 Sebelum Anda memulai, pastikan server Anda memenuhi semua persyaratan yang tercantum di atas.
 
-1Buat proyek Node.js baru
+1. **Buat proyek Node.js baru**
 Jalankan yang berikut ini di baris perintah untuk membuat file dan dependensi yang diperlukan:
 mkdir messenger-webhook // Creates a project directory cd messenger-webhook // Navigates to the new directory touch index.js // Creates empty index.js file. npm init // Creates package.json. Accept default for all questions. npm install express body-parser --save // Installs the express.js http server framework module, // and then adds them to the dependencies section of package.json file.
 Jika semua berjalan lancar, maka direktori messenger-webhook Anda akan terlihat seperti ini:
